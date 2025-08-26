@@ -17,6 +17,17 @@ const Hero = () => {
       
       {/* Hero Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
+        <div className="mb-8">
+          <div className="h-24 md:h-32 mx-auto mb-6 flex items-center justify-center">
+            <div className="bg-white/10 backdrop-blur-sm rounded-full p-4 border border-white/20">
+              <svg viewBox="0 0 100 100" className="w-16 h-16 md:w-20 md:h-20">
+                <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" strokeWidth="2" className="text-accent"/>
+                <path d="M35 55 L45 45 L55 55 L65 35" fill="none" stroke="currentColor" strokeWidth="3" className="text-primary"/>
+                <circle cx="50" cy="30" r="8" fill="currentColor" className="text-secondary"/>
+              </svg>
+            </div>
+          </div>
+        </div>
         <h1 className="font-montserrat font-bold text-5xl md:text-7xl lg:text-8xl mb-6 leading-tight">
           NurturEdge Foundation
         </h1>

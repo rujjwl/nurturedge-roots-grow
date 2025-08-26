@@ -67,7 +67,6 @@ const CallToAction = () => {
             </div>
             <h3 className="font-montserrat font-semibold text-lg mb-2">Phone</h3>
             <div className="font-opensans text-sm opacity-90 space-y-1">
-              <p>99138 56583</p>
               <p>70434 74043</p>
               <p>94280 50584</p>
             </div>
