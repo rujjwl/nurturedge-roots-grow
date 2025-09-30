@@ -2,7 +2,7 @@ import { Globe, Lightbulb } from "lucide-react";
 
 const Vision = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-muted">
+    <section id="vision" className="py-20 bg-gradient-to-b from-background to-muted">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Vision */}

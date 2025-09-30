@@ -44,6 +44,7 @@ const Hero = () => {
           variant="outline" 
           size="lg" 
           className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-primary backdrop-blur-sm transition-all duration-300 font-montserrat font-semibold px-8 py-4 text-lg"
+          onClick={() => document.getElementById('vision')?.scrollIntoView({ behavior: 'smooth' })}
         >
           Learn More About Our Mission
         </Button>
