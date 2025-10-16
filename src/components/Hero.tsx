@@ -17,15 +17,6 @@ const Hero = () => {
       
       {/* Hero Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
-        <div className="mb-8">
-          <div className="h-24 md:h-32 mx-auto mb-6 flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/3be6a7ea-3293-415c-8610-d761d7d52a0f.png"
-              alt="NurturEdge Foundation Logo"
-              className="h-20 md:h-28 w-auto"
-            />
-          </div>
-        </div>
         <h1 className="font-montserrat font-bold text-5xl md:text-7xl lg:text-8xl mb-6 leading-tight">
           NurturEdge Foundation
         </h1>
