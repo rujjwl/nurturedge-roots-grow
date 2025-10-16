@@ -49,6 +49,13 @@ const Navbar = () => {
           >
             Impact
           </Button>
+          <Button 
+            variant="ghost" 
+            onClick={() => scrollToSection('team')}
+            className="font-opensans"
+          >
+            Team
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -85,6 +92,13 @@ const Navbar = () => {
               className="font-opensans justify-start w-full"
             >
               Impact
+            </Button>
+            <Button 
+              variant="ghost" 
+              onClick={() => scrollToSection('team')}
+              className="font-opensans justify-start w-full"
+            >
+              Team
             </Button>
           </div>
         </div>

@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Vision from "@/components/Vision";
 import Objectives from "@/components/Objectives";
 import Impact from "@/components/Impact";
+import Team from "@/components/Team";
 import CallToAction from "@/components/CallToAction";
 import Partners from "@/components/Partners";
 
@@ -14,6 +15,7 @@ const Index = () => {
       <Vision />
       <Objectives />
       <Impact />
+      <Team />
       <CallToAction />
       <Partners />
     </div>
