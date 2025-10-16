@@ -22,6 +22,83 @@ const teamMembers = [
     image: "/placeholder.svg",
     email: "member3@nurturedge.org",
     linkedin: "#"
+  },
+  {
+    name: "Team Member 4",
+    role: "Field Coordinator",
+    image: "/placeholder.svg",
+    email: "member4@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 5",
+    role: "Sustainability Specialist",
+    image: "/placeholder.svg",
+    email: "member5@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 6",
+    role: "Education Coordinator",
+    image: "/placeholder.svg",
+    email: "member6@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 7",
+    role: "Youth Development Officer",
+    image: "/placeholder.svg",
+    email: "member7@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 8",
+    role: "Environmental Consultant",
+    image: "/placeholder.svg",
+    email: "member8@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 9",
+    role: "Communications Manager",
+    image: "/placeholder.svg",
+    email: "member9@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 10",
+    role: "Finance Officer",
+    image: "/placeholder.svg",
+    email: "member10@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 11",
+    role: "Research Analyst",
+    image: "/placeholder.svg",
+    email: "member11@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 12",
+    role: "Partnership Coordinator",
+    image: "/placeholder.svg",
+    email: "member12@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 13",
+    role: "Volunteer Manager",
+    image: "/placeholder.svg",
+    email: "member13@nurturedge.org",
+    linkedin: "#"
+  },
+  {
+    name: "Team Member 14",
+    role: "Operations Officer",
+    image: "/placeholder.svg",
+    email: "member14@nurturedge.org",
+    linkedin: "#"
   }
 ];
 
@@ -38,7 +115,7 @@ const Team = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
           {teamMembers.map((member, index) => (
             <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-0 shadow-soft overflow-hidden">
               <CardContent className="p-0">
