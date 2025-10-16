@@ -8,7 +8,7 @@ import Partners from "@/components/Partners";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pt-16">
       <Navbar />
       <Hero />
       <Vision />
