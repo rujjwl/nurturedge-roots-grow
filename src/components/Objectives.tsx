@@ -42,7 +42,7 @@ const objectives = [
 
 const Objectives = () => {
   return (
-    <section className="py-20 bg-background">
+    <section id="objectives" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-primary mb-4">

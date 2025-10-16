@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Vision from "@/components/Vision";
 import Objectives from "@/components/Objectives";
@@ -8,6 +9,7 @@ import Partners from "@/components/Partners";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Navbar />
       <Hero />
       <Vision />
       <Objectives />

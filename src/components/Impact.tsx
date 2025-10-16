@@ -31,7 +31,7 @@ const impactAreas = [
 
 const Impact = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-muted to-background">
+    <section id="impact" className="py-20 bg-gradient-to-b from-muted to-background">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-montserrat font-bold text-4xl md:text-5xl text-primary mb-4">
