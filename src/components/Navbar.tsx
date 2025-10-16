@@ -15,7 +15,7 @@ const Navbar = () => {
             alt="NurturEdge Foundation Logo"
             className="h-12 w-auto"
           />
-          <div className="flex flex-col leading-tight">
+          <div className="flex flex-col justify-center leading-none">
             <span className="font-montserrat font-bold text-lg text-foreground">NurturEdge</span>
             <span className="font-montserrat font-bold text-lg text-foreground">Foundation</span>
           </div>
